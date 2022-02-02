@@ -21,6 +21,8 @@ class Book:  # обьявляем класс книга
 # price = input('price')
 # book = Book(name=name, author=author, year=year, genre=genre, publisher=publisher, price=price)
 # print(book.find_string('name'))
+
+
 book1 = Book(name='The lord of Rings',
              author="Джон Рональд Руэль Толкин",
              year='2001',

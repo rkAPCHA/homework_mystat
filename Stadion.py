@@ -19,6 +19,8 @@ class Stadion:  # обьявляем класс стадион
 # city = input('city')
 # capacity = input('capacity')
 # stadion = Stadion(name=name, year=year, city=city, capacity=capacity)
+
+
 stadion1 = Stadion(name='Первое мая', year='1986', city='Пьхеньян', capacity='114 000')
 print(stadion1.find_string('year'))
 stadion1.set_string('city', 'Москва')

@@ -20,6 +20,8 @@ class Car:  # обьявляем класс машина
 # color = input('color:\n')
 # price = input('Price:\n')
 # object_1 = Car(model=model,year_rel=year_rel,who_made=who_made,size_motor=size_motor,color=color,price=price)
+
+
 data = """\nmodel\nyear_rel\nwho_made\nsize_motor\ncolor\nprice\n"""  # сделал перем где будут хранится данные о машине
 object_2 = Car(model='toyota', year_rel=1999, who_made='toyota', size_motor='123 cm', color='blue', price=3058.99)
 print(object_2.find_string(find='model'))
