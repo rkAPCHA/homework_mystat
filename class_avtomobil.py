@@ -8,6 +8,10 @@ class Car:  # обьявляем класс машина
     def set_string(self, set1, value):  # єта функция отвечает за замену любого параметра
         self.dict[set1] = value  # заменяем на тотЮ который хочет пользователь
         return self.dict  # выводим словарь
+    def __repr__(self):
+        print(f'model : {self.dict["model"]}\nyear_rel : {self.dict["year_rel"]}\n'
+              f'who_made : {self.dict["who made"]}\nsize_motor : {self.dict["size_motor"]}\n'
+              f'color: {self.dict["color"]}\nprice: {self.dict["price"]}')
 
 # model = input('Model car:\n')
 # year_rel = input('Year release:\n')  это вариант с вводом пользователя можно раскоментировать

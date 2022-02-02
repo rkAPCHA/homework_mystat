@@ -9,7 +9,11 @@ class Stadion:  # обьявляем класс стадион
         self.dict[set1] = value  # заменяем на тотЮ который хочет пользователь
         return self.dict  # выводим словарь
 
-
+    def __repr__(self):
+        print(f'name : {self.dict["name"]}\n'
+              f'year : {self.dict["year"]}\n'
+              f'city : {self.dict["city"]}\n'
+              f'capacity: {self.dict["capacity"]}')
 # name = input('name')
 # year = input('year')
 # city = input('city')

@@ -9,6 +9,10 @@ class Book:  # обьявляем класс книга
         self.dict[set1] = value  # заменяем на тотЮ который хочет пользователь
         return self.dict  # выводм словарь
 
+    def __repr__(self):
+        print(f'name : {self.dict["name"]}\nauthor : {self.dict["author"]}\n'
+              f'year : {self.dict["year"]}\ngenre : {self.dict["genre"]}\n'
+              f'publisher: {self.dict["publisher"]}\nprice: {self.dict["price"]}')
 # name = input('name')
 # author = input('author')
 # year = input('year')
